@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.nahulthejoker.searchcontrol">
+   <children>
+      <AnchorPane prefHeight="800.0" prefWidth="300.0" style="-fx-background-color: #00A9FF;">
+         <children>
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="10.0" layoutY="8.0" onMouseClicked="#searchtohome" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@back.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="4.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@footballrotating.gif" />
+               </image>
+            </ImageView>
+            <Text fill="#e7e7e7" layoutX="81.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MIST KickOff" wrappingWidth="199.94247436523438">
+               <font>
+                  <Font name="Algerian" size="50.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="222.0" fitWidth="294.0" layoutX="-2.0" layoutY="204.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@laptop.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="263.0" fitWidth="262.0" layoutX="21.0" layoutY="525.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@piechart.gif" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="44.0" layoutY="451.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pie Chart &amp; Line Chart" textAlignment="CENTER" wrappingWidth="196.5">
+               <font>
+                  <Font name="Times New Roman" size="40.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <PieChart fx:id="pieChart" layoutX="309.0" layoutY="15.0" prefHeight="420.0" prefWidth="604.0" />
+      <LineChart fx:id="lineChart" layoutX="310.0" layoutY="460.0" prefHeight="333.0" prefWidth="594.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <Pane layoutX="914.0" prefHeight="800.0" prefWidth="293.0" style="-fx-background-color: #00A9FF;">
+         <children>
+            <ImageView fitHeight="297.0" fitWidth="273.0" layoutX="11.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@lengra2.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="270.0" fitWidth="291.0" layoutX="7.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@graph6.gif" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="28.0" layoutY="308.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Visualize player values &amp; team insights for strategic decision-making through interactive, data-driven Graph Charts." textAlignment="CENTER" wrappingWidth="246.6334228515625">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Text>
+         </children></Pane>
+   </children>
+</AnchorPane>

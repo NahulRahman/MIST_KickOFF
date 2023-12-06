@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.nahulthejoker.transactioncontrol">
+   <children>
+      <AnchorPane prefHeight="800.0" prefWidth="300.0" style="-fx-background-color: #00A9FF;">
+         <children>
+            <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="4.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@footballrotating.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="10.0" layoutY="8.0" onMouseClicked="#transactiontohome" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@back.png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="85.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MIST KickOff" wrappingWidth="199.4091796875">
+               <font>
+                  <Font name="Algerian" size="50.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="209.0" fitWidth="242.0" layoutX="38.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@timemoney.gif" />
+               </image>
+            </ImageView>
+            <Label fx:id="totalMoney" alignment="CENTER" layoutX="42.0" layoutY="472.0" prefHeight="44.0" prefWidth="195.0" style="-fx-background-color: white;" />
+            <Label layoutX="65.0" layoutY="520.0" prefHeight="30.0" prefWidth="150.0" text="Current Balance" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="307.0" fitWidth="139.0" layoutX="75.0" layoutY="547.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Bilai.gif" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="24.0" layoutY="407.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Transaction History" textAlignment="CENTER" wrappingWidth="228.84307861328125">
+               <font>
+                  <Font size="35.0" />
+               </font></Text>
+         </children>
+      </AnchorPane>
+      <TableView fx:id="showTable" layoutX="300.0" layoutY="274.0" prefHeight="526.0" prefWidth="901.0">
+         <columns>
+            <TableColumn fx:id="nameColumn" prefWidth="200.800048828125" text="Name" />
+            <TableColumn fx:id="idColumn" prefWidth="119.99993896484375" text="ID" />
+            <TableColumn fx:id="deptColumn" prefWidth="96.79998779296875" text="Dept" />
+            <TableColumn fx:id="posColumn" prefWidth="83.20001220703125" text="Position" />
+            <TableColumn fx:id="valColumn" prefWidth="109.59991455078125" text="Value" />
+            <TableColumn fx:id="statColumn" prefWidth="119.20001220703125" text="Status" />
+            <TableColumn fx:id="cur_amnColumn" prefWidth="165.5999755859375" text="Current Amount" />
+         </columns>
+      </TableView>
+      <ImageView fitHeight="270.0" fitWidth="577.0" layoutX="300.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cashrain.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="281.0" fitWidth="475.0" layoutX="728.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cashrain.gif" />
+         </image></ImageView>
+   </children>
+</AnchorPane>

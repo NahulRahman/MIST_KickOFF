@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: #9FB3B9;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.nahulthejoker.aboutuscontrol">
+   <children>
+      <Label layoutX="362.0" layoutY="50.0" text="MIST KickOff">
+         <font>
+            <Font name="Algerian" size="70.0" />
+         </font>
+      </Label>
+      <Label layoutX="500.0" layoutY="123.0" text="About Us">
+         <font>
+            <Font name="Times New Roman" size="50.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="997.0" layoutY="584.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@duck2.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="279.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@footballrotating.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="182.0" fitWidth="172.0" layoutX="65.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@fox.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="106.0" fitWidth="97.0" layoutX="680.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@skygear.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="231.0" fitWidth="235.0" layoutX="497.0" layoutY="218.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@aunindovaicircle.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="250.0" fitWidth="229.0" layoutX="899.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@nahulcircle2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="481.0" layoutY="581.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@MIST.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="10.0" layoutY="8.0" onMouseClicked="#abouttohome" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@back.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="490.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@info.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="81.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Our project brings football management to the Military Institute of Science and Technology (MIST) with a user-friendly desktop application. Meet the creators: Aunindya Prosad Saha, the coding wizard; G. M. Fahim Tazwar, the data maestro; and Md. Nahul Rahman, the design virtuoso. Using JavaFX, IntelliJ, Scenebuilder, MSExcel, MySql, and HTML/CSS, we've crafted a feature-rich experience for user login/registration, player management, real-time marketplace, subject wise search and more. Join us in redefining football management at MIST." textAlignment="JUSTIFY" wrappingWidth="405.4925231933594">
+         <font>
+            <Font name="Times New Roman" size="22.0" />
+         </font>
+      </Text>
+      <Text layoutX="240.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MIST KickOff is the long awaited result after tireless efforts of a dedicated team's passion for football and technology." textAlignment="JUSTIFY" wrappingWidth="245.0574951171875">
+         <font>
+            <Font name="Times New Roman" size="22.0" />
+         </font>
+      </Text>
+      <Label layoutX="634.0" layoutY="697.0" text="Military Institute of Science and Technology" />
+      <Label layoutX="634.0" layoutY="678.0" text="Department of Computer Science &amp; Engineering" />
+      <Label layoutX="634.0" layoutY="659.0" text="Sumaiya Nuha Mustafina, Lecturer" />
+      <Label layoutX="634.0" layoutY="639.0" text="Rubyeat Islam, Lecturer" />
+      <Label layoutX="634.0" layoutY="618.0" text="Zohirul Islam, Squadron Leader" />
+      <Label layoutX="634.0" layoutY="597.0" text="Submitted to:" />
+      <Label layoutX="634.0" layoutY="575.0" text="Object Oriented Programming Sessional-II [CSE-220]" />
+      <Text layoutX="562.0" layoutY="505.0" strokeType="OUTSIDE" strokeWidth="0.0" text="202114014">
+         <font>
+            <Font size="20.0" />
+         </font></Text>
+      <Text layoutX="950.0" layoutY="474.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Md. Nahul Rahman">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font></Text>
+      <Text layoutX="519.0" layoutY="474.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Aunindya Prosad Saha">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font></Text>
+      <Text layoutX="740.0" layoutY="474.0" strokeType="OUTSIDE" strokeWidth="0.0" text="G.M.Fahim Tazwar">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font></Text>
+      <Text layoutX="980.0" layoutY="505.0" strokeType="OUTSIDE" strokeWidth="0.0" text="202214049">
+         <font>
+            <Font size="20.0" />
+         </font></Text>
+      <Text layoutX="768.0" layoutY="505.0" strokeType="OUTSIDE" strokeWidth="0.0" text="202114025">
+         <font>
+            <Font size="20.0" />
+         </font></Text>
+      <ImageView fitHeight="250.0" fitWidth="250.0" layoutX="669.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@deesunvaicircle.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
